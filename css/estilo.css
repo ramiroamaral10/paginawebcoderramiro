@@ -1,0 +1,338 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* fondo del header*/
+.bgColor{
+    background-color: violet;
+}
+/* arreglos de lista del nav*/
+nav li{
+    list-style-type:none;
+    display: inline;
+    margin-left:15px ;
+    margin-right:15px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+/* alinear logo del header*/
+.alignLogo{
+    text-align:center;
+    
+}
+/*alinear lista del header*/
+.alignListas{
+    text-align:center;
+    
+}
+/*arreglos de etiquetas a*/
+a{
+    text-decoration:none;
+    padding: 10px;
+    color: black;
+    
+}
+/* arreglos h1 del main*/
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: violet;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* arreglo h2 del main*/
+main div h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: violet;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*arreglos h3 del main*/
+main div h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: violet;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* tamanio imagenes*/
+.tamanioImgGabi{
+    width: 400px;
+}
+.tamanioImgEze{
+    width: 400px;
+    
+}
+/* alinear los h2 de pagina artistas*/
+.h2InlineArtistaGabi{
+    display: inline;
+}
+.h2InlineArtistaEze{
+    display: inline;
+}
+/*h2 centrados de index y servicios */
+h2{
+    text-align: center;
+}
+/*margen de las listas de ervicios y de los parrafos de servicios*/
+.margenlistasservicios{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+ul li p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* di de ezequiel separarlo del div de gabi */
+.divGabi{
+    display:inline-block;
+}
+.divEze{
+    display:inline-block;
+}
+/* alinear lista del footer*/
+.alignListasFooter{
+    text-align: center;
+}
+
+/* imagen de fondo del main*/
+.gridbgimg{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "bgImg";
+}
+
+.bgImg{
+    background-image:url(../assets/img/mainfotoladrillo.jpg);
+    
+
+    
+
+}
+iframe{
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+}
+/* overflow de las cacniones de gabi*/
+
+p{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: white;
+}
+label{
+    color:white
+    
+}
+
+.tamanioImgEstudio1Nosotros{
+    width: 800px;
+}
+.tamanioImgEstudio2Nosotros{
+    width: 800px;
+}
+
+.formCentrado{
+    text-align: center;
+}
+.bgColorForm{
+    background-color: violet;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+label{
+    color: black;
+}
+
+.centrarRide{
+    text-align: center;
+}
+.listasServicios{
+    list-style-type:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:violet
+}
+/*grid y felx pagina artistas*/
+.gridContainerArtistas{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "fotogabicentrado"
+    "nombregabicentrado"
+    "nombreezecentrado"
+    "fotoezecentrado"
+    "iframecentradogabi"
+    "nombrecanciontodocentrado"
+    "nombrecancionbuscocentrado"
+    "nombrecancionmemoriascentrado"
+    "iframeezecentrado";
+    
+
+}
+.fotogabicentrado{
+    grid-area: fotogabicentrado;
+    display: flex;
+    justify-content: center;
+}
+.nombregabicentrado{
+    grid-area: nombregabicentrado;
+    display: flex;
+    justify-content: center;
+}
+.nombreezecentrado{
+    grid-area: nombreezecentrado;
+    display: flex;
+    justify-content: center;
+}
+.fotoezecentrado{
+    grid-area: fotoezecentrado;
+    display: flex;
+    justify-content: center;
+}
+.iframecentradogabi{
+    grid-area: iframecentradegbi;
+    display: flex;
+    justify-content: center;
+}
+.nombrecanciontodocentrado{
+    grid-area: nombrecancionodocentrado;
+    display: flex;
+    justify-content: center;
+}
+.nombrecancionbuscocentrado{
+    grid-area: nombrecancionbuscocentrado;
+    display: flex;
+    justify-content: center;
+}
+.nombrecancionmemoriascentrado{
+    grid-area: nombrecancionmemoriascentrado;
+    display: flex;
+    justify-content: center;
+}
+.iframeezecentrado{
+    grid-area: iframeezecentrado;
+    display: flex;
+    justify-content: center;
+}
+main{
+    grid-area: main;
+}
+/*flex para index video adelanto centrado*/
+.flexvideocentrado{
+    display: flex;
+    justify-content: center;
+}
+/*flex para fotos centradas Nosotros*/
+.imagen1centradanosotros{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.imagen2centradanosotros{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*mediaquerie artistas*/
+@media only screen and (max-width: 768px){
+    .gridmobileartistas{
+        display: grid;
+        grid-template-areas:
+        "header" 
+        "main" 
+        "footer" 
+        ;
+        
+    }
+    header{
+        grid-area: header;
+        
+        
+    }
+    nav{
+        grid-area: nav;
+        display: flex;
+        flex-direction: column;
+
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+    .gridContainerArtistas{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "fotogabicentrado"
+        "nombregabicentrado"
+        "nombreezecentrado"
+        "fotoezecentrado"
+        "iframecentradogabi"
+        "nombrecanciontodocentrado"
+        "nombrecancionbuscocentrado"
+        "nombrecancionmemoriascentrado"
+        "iframeezecentrado";
+        
+    
+    }
+    .fotogabicentrado{
+        grid-area: fotogabicentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .nombregabicentrado{
+        grid-area: nombregabicentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .nombreezecentrado{
+        grid-area: nombreezecentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .fotoezecentrado{
+        grid-area: fotoezecentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .iframecentradogabi{
+        grid-area: iframecentradegbi;
+        display: flex;
+        justify-content: center;
+    }
+    .nombrecanciontodocentrado{
+        grid-area: nombrecancionodocentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .nombrecancionbuscocentrado{
+        grid-area: nombrecancionbuscocentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .nombrecancionmemoriascentrado{
+        grid-area: nombrecancionmemoriascentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .iframeezecentrado{
+        grid-area: iframeezecentrado;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+
+
+
+
