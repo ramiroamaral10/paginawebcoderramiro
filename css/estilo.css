@@ -108,12 +108,9 @@ ul li p{
 
 .bgImg{
     background-image:url(../assets/img/mainfotoladrillo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     
     
 
-    
 
 }
 iframe{
@@ -128,10 +125,7 @@ p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     color: white;
 }
-label{
-    color:white
-    
-}
+
 
 .tamanioImgEstudio1Nosotros{
     width: 800px;
@@ -142,16 +136,19 @@ label{
 
 .formCentrado{
     text-align: center;
+    
 }
 .bgColorForm{
-    background-color: violet;
-    margin-left: 500px;
-    margin-right: 500px;
+background-color: violet;
+border-width: 5px;
+border-color: white;
+border-style: solid;
+max-width: 400px; 
+display: flex;
+justify-content: center;   
 
 }
-label{
-    color: black;
-}
+
 
 .centrarRide{
     text-align: center;
