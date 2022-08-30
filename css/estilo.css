@@ -6,7 +6,7 @@
 /* fondo del header*/
 .bgColor{
     background-color: violet;
-    background-image: linear-gradient(to left, violet,white);
+    
 }
 /* arreglos de lista del nav*/
 nav li{
@@ -20,6 +20,7 @@ nav li{
 /* alinear logo del header*/
 .alignLogo{
     text-align:center;
+    
     
 }
 /*alinear lista del header*/
@@ -109,6 +110,7 @@ ul li p{
     background-image:url(../assets/img/mainfotoladrillo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
     
 
     
@@ -221,6 +223,7 @@ label{
     grid-area: iframeezecentrado;
     display: flex;
     justify-content: center;
+    
 }
 main{
     grid-area: main;
@@ -338,8 +341,10 @@ main{
     .iframeezecentrado{
         grid-area: iframeezecentrado;
         display: flex;
+        max-width: 400px;
         justify-content: center;
-        max-width: 100vw;
+        width: 100%;
+        
     }
 .alignLogo{
     width: 100vw;
@@ -357,8 +362,9 @@ main{
 
 }
 .iframeezeartistascentrado{
-    width: 100%;
-    margin: 0 auto;
+    display: flex;
+        max-width: 400px;
+        justify-content: center;
 
 }
 .overFlowEze{
@@ -367,6 +373,7 @@ main{
 
 }
 }
+/* animaciones y gradientes*/
 @keyframes desaparecer{
     0%{opacity: 1;}
     100%{opacity: 0;}
