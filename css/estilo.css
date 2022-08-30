@@ -6,6 +6,7 @@
 /* fondo del header*/
 .bgColor{
     background-color: violet;
+    background-image: linear-gradient(to left, violet,white);
 }
 /* arreglos de lista del nav*/
 nav li{
@@ -106,6 +107,8 @@ ul li p{
 
 .bgImg{
     background-image:url(../assets/img/mainfotoladrillo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 
     
