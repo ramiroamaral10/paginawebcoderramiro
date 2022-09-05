@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio Gate</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
     
 </head>
@@ -15,7 +16,7 @@
         <!-- logo +nav--> 
         <header class="row">  
             <a class="navbar-brand col-6 col-lg-12 d-flex justify-content-center" href="pages/artistas.html"><img src="assets/img/GATELOGO2.png" alt="logo"></a>      
-            <nav class="navbar col-4 col-lg-12 navbar-expand-lg navbar-light">               
+            <nav class="navbar col-4 col-lg-12 navbar-expand-lg navbar-light bg-light">               
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -37,7 +38,7 @@
                             </li>
                             </ul>                                
                 </nav>      
-    </header>            
+        </header>            
     </div> 
         <div class="container-fluid">
             <div class="row">
@@ -47,7 +48,7 @@
 
                         <main class="gridbgimg bgImg">
                             
-                           
+                        
                             <div>
                                 <h1 class="text-center">Tu sello discografico</h1>
                             </div>
@@ -55,14 +56,14 @@
                             <p class="text-center">Ofreciendole a artistas y productores una plataforma confiable para lanzar y desarrollar sus carreras musicales.</p>
                             </div>
                             <div class="centrarAdelanto">
-                            <h2 class="text-center" >Adelanto proxima cancion</h2>
+                            <h2 class="text-center">Adelanto proxima cancion</h2>
                             <h3 class="text-center">RIDE (Ezequiel Herrera)</h3>
                                 
                             </div>
                             
-                            <div class="d-flex justify-content-center"">
+                            <div class="d-flex justify-content-center">
                                 <video controls>
-                                    <source src="assets/video/adelanto-cancion.mp4" type="video/mp4">
+                                    <source  src="assets/video/adelanto-cancion.mp4" type="video/mp4">
                             </div>
                         </div>
                         </main>
@@ -70,14 +71,14 @@
             </div>        
         </div>                
     
-    <footer class="alignListasFooter bgColor">
+    <footer class="alignListasFooter bgColor bg-light">
         <nav>
             <ul class="d-flex justify-content-center list-inline">
                 <li class="nav-item list-inline-item">
-                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    <a class="nav-link text-black" href="pages/contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item list-inline-item">
-                    <a class="nav-link" href="https://www.instagram.com/prodbygate/">Instagram</a>
+                    <a class="nav-link text-black" href="https://www.instagram.com/prodbygate/">Instagram</a>
                 </li>
                 
                 
@@ -87,6 +88,9 @@
             
     </footer>
     </div>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

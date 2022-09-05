@@ -23,6 +23,10 @@ h3{
     color: violet;
 }
 
-.imagen1centradanosotros img{
-    width: 100%;
+.imghorizontal{
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
